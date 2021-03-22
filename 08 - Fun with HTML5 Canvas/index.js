@@ -22,7 +22,7 @@ function draw(e){
   ctx.stroke();
   lastX=e.offsetX;
   lastY=e.offsetY;
-  hue++;
+  hue+=2;
 
   if(ctx.lineWidth>=40||ctx.lineWidth<=5)
   {direction = !direction;}
